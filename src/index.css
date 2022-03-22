@@ -5,3 +5,9 @@
   outline: none;
   text-decoration: none;
 }
+
+body {
+  background-color: #EAEAEA;
+  height: 100vh;
+  width: 100vw;
+}
