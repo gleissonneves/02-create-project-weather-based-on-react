@@ -1,12 +1,7 @@
 import React from 'react';
 
-
 const Icon = function icon() {
-    return (
-        <div>
-            olá mundo
-        </div>
-    );
-}
+  return <h1>olá mundo</h1>;
+};
 
 export default Icon;
