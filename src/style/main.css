@@ -1,13 +1,14 @@
 * {
-  box-sizing: none;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   outline: none;
   text-decoration: none;
+  font-size: var(--font-family-main);
 }
 
 body {
-  background-color: #EAEAEA;
+  background-color: #eaeaea;
   height: 100vh;
   width: 100vw;
 }
