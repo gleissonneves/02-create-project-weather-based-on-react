@@ -35,47 +35,34 @@ O aplicativo web conta com uma estrutura de Design system para a escala de desig
 ### 🧰Instalação
 
 #### 🚧 Alguns pré-requisitos 🚧
-É necessário que você tenha um servidor e um banco de dados SQL para facilitar o processo.
-Recomendo utilizar Xampp e o SGBD phpmysql
+É necessário que você tenha o [node](https://nodejs.org/en/) instalado e o [npm](https://docs.npmjs.com/)
 
 #### 🚀 Go 🚀
 Utilize esse comando para clonar o repositório:
 ```GIT
-git clone https://github.com/gdk46/bookcase.git
+git clone https://github.com/gleissonneves/02-create-project-weather-based-on-react/
 ```
-ou baixe clicando [aqui](https://github.com/gdk46/bookcase/archive/master.zip).
 
 Acesse ao diretório e digite os comandos para baixar as dependêcias:
 ```
 Acessando o diretório:
-cd bookcase
+cd 02-create-project-weather-based-on-react
 
-Baixar as dependêcias Windows:
-composer install && npm install
+# Donwload
 
-Linux:
-composer install ; nvm install
+npm install
 ```
 
 ### ✅Tecnologias
 
-* [PHP](https://www.php.net/) version: 7.4.* 
-* [Laravel](https://laravel.com/) version: 8.12 
-* [Livewire](https://laravel-livewire.com/) version: 2.4
-* [Tailwind CSS](https://tailwindcss.com/) version: 2.0.3
-* [Slick carousel](https://kenwheeler.github.io/slick/) version: 1.8.1 
-* [NPM](https://www.npmjs.com/) version: 6.14.11 
-* HTML
-* CSS3
-* SQL
-
+* [React](https://www.php.net/) version: 17.^ 
+* [Node](https://www.php.net/) version: 14.^ 
+* [NPM](https://www.npmjs.com/) version: 8.^ 
 
 ### 📄Como usar
- - ainda documentando
-
+ - Você pode buscar por uma cidade expecífica.
+ - Com base na sua localização, podemos ver o clima
 ### Features
 
-- [x] Cadastro de livro
-- [x] Edição de livro
-- [x] exclusão de livro
-- [x] Listagem de livro
+- [x] Busca por API dos dados de clima
+- [x] Consulta de cidade
