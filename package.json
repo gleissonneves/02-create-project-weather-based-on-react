@@ -2,6 +2,7 @@
   "name": "02-create-project-weather-based-on-react",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://jovial-meringue-1c8a00.netlify.app/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
