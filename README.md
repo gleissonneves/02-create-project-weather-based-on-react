@@ -1,74 +1,81 @@
-<<<<<<< HEAD
-# Weather
-=======
-# Getting Started with Create React App
+<h1 align="center">
+    Weather
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"> 
+📖 Estudo dirigido a biblioteca React
+</p>
 
-## Available Scripts
+<p align="center" style="margin-bottom:50px;">
+ <a href="#🏁Sobre">Sobre</a> •
+ <a href="#🧰Instalação">Instalacao</a> • 
+ <a href="#✅tecnologias">Tecnologias</a> • 
+ <a href="#📄como-usar">Como usar</a> •
+ <a href="#features">Features</a> 
+</p>
 
-In the project directory, you can run:
+<p align="center">
+<img src="preview1.png">
+<img src="preview2.jpg">
+</p>
 
-### `npm start`
+<p align="center">
+<img src="https://img.shields.io/static/v1?label=framework&message=React&color=5CCFEE&style=for-the-badge&logo=react"/>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### 🏁Sobre
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Weather apesar de simples e ser um caso de estudo não deixa de ser poderoso!
 
-### `npm run build`
+O aplicativo web conta com uma estrutura de Design system para a escala de design. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🧰Instalação
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### 🚧 Alguns pré-requisitos 🚧
+É necessário que você tenha um servidor e um banco de dados SQL para facilitar o processo.
+Recomendo utilizar Xampp e o SGBD phpmysql
 
-### `npm run eject`
+#### 🚀 Go 🚀
+Utilize esse comando para clonar o repositório:
+```GIT
+git clone https://github.com/gdk46/bookcase.git
+```
+ou baixe clicando [aqui](https://github.com/gdk46/bookcase/archive/master.zip).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Acesse ao diretório e digite os comandos para baixar as dependêcias:
+```
+Acessando o diretório:
+cd bookcase
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Baixar as dependêcias Windows:
+composer install && npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Linux:
+composer install ; nvm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### ✅Tecnologias
 
-## Learn More
+* [PHP](https://www.php.net/) version: 7.4.* 
+* [Laravel](https://laravel.com/) version: 8.12 
+* [Livewire](https://laravel-livewire.com/) version: 2.4
+* [Tailwind CSS](https://tailwindcss.com/) version: 2.0.3
+* [Slick carousel](https://kenwheeler.github.io/slick/) version: 1.8.1 
+* [NPM](https://www.npmjs.com/) version: 6.14.11 
+* HTML
+* CSS3
+* SQL
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 📄Como usar
+ - ainda documentando
 
-### Code Splitting
+### Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 349383e (feat: recursos)
+- [x] Cadastro de livro
+- [x] Edição de livro
+- [x] exclusão de livro
+- [x] Listagem de livro
