@@ -1,5 +1,3 @@
-import './App.css';
-
 import Icon from './components/Icon'
 
 function App() {
